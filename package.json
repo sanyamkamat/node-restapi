@@ -1,0 +1,30 @@
+{
+  "name": "node-api",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanyamkamat/node-restapi.git"
+  },
+  "keywords": [
+    "node",
+    "rest",
+    "api",
+    "mongodb"
+  ],
+  "author": "Sanyam Kamat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanyamkamat/node-restapi/issues"
+  },
+  "homepage": "https://github.com/sanyamkamat/node-restapi",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.12.4",
+    "mongoose": "^4.0.5"
+  }
+}
